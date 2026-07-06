@@ -4,7 +4,7 @@ This folder contains my learning and implementations of **Arrays** as part of my
 
 ---
 
-# 📚 Topics Covered
+## 📚 Topics Covered
 
 - Introduction to Arrays
 - Memory Representation
@@ -20,7 +20,7 @@ This folder contains my learning and implementations of **Arrays** as part of my
 
 ---
 
-# 📖 What is an Array?
+## 📖 What is an Array?
 
 An **Array** is a linear data structure that stores elements of the **same data type** in **contiguous memory locations**.
 
@@ -28,28 +28,27 @@ Example:
 
 ```text
 Index : 0   1   2   3   4
-
-Value :10  20  30  40  50
+Value : 10  20  30  40  50
 ```
 
 Elements are accessed using their index.
 
 ---
 
-# ⚡ Time Complexity of Array Operations
+## ⚡ Time Complexity of Array Operations
 
-| Operation | Time Complexity |
-|-----------|-----------------|
-| Access | O(1) |
-| Traversal | O(n) |
-| Linear Search | O(n) |
-| Insertion | O(n) |
-| Deletion | O(n) |
-| Merging | O(n + m) |
+| Operation     | Time Complexity |
+|---------------|------------------|
+| Access        | O(1)             |
+| Traversal     | O(n)             |
+| Linear Search | O(n)             |
+| Insertion     | O(n)             |
+| Deletion      | O(n)             |
+| Merging       | O(n + m)         |
 
 ---
 
-# 🔍 Array Traversal
+## 🔍 Array Traversal
 
 Traversal means visiting every element exactly once.
 
@@ -61,177 +60,163 @@ for element in arr:
 ```
 
 **Complexity**
-
 - Time: **O(n)**
 - Space: **O(1)**
 
 ---
 
-# ➕ Array Insertion
+## ➕ Array Insertion
 
 Insertion means adding a new element at a specific position.
 
-Example
+**Example**
 
-Before
-
+Before:
 ```text
 10 20 30 40
 ```
 
-After inserting **25** at index **2**
-
+After inserting **25** at index **2**:
 ```text
 10 20 25 30 40
 ```
 
 **Complexity**
-
 - Time: **O(n)**
+- Space: **O(1)**
 
 ---
 
-# ➖ Array Deletion
+## ➖ Array Deletion
 
 Deletion removes an element from the array.
 
-Example
+**Example**
 
-Before
-
+Before:
 ```text
 10 20 30 40 50
 ```
 
-After deleting **30**
-
+After deleting **30**:
 ```text
 10 20 40 50
 ```
 
 **Complexity**
-
 - Time: **O(n)**
+- Space: **O(1)**
 
 ---
 
-# 🔎 Linear Search
+## 🔎 Linear Search
 
 Linear Search checks every element until the target is found.
 
-Example
-
 ```python
-arr = [10,20,30,40,50]
-
+arr = [10, 20, 30, 40, 50]
 target = 40
 ```
 
-**Best Case:** O(1)
-
-**Worst Case:** O(n)
+**Complexity**
+- Best Case: **O(1)**
+- Worst Case: **O(n)**
 
 ---
 
-# 🔗 Merging Arrays
+## 🔗 Merging Arrays
 
 Two arrays can be combined into one.
 
-Example
+**Example**
 
+Array 1:
 ```text
-Array 1
-
 10 20 30
+```
 
-Array 2
-
+Array 2:
+```text
 40 50 60
 ```
 
-Merged Array
-
+Merged Array:
 ```text
 10 20 30 40 50 60
 ```
 
 **Complexity**
-
 - Time: **O(n + m)**
+- Space: **O(n + m)**
 
 ---
 
-# 🔄 Bubble Sort
+## 🔄 Bubble Sort
 
 Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 
-Example
+**Example**
 
 ```text
-Before
-
-5 3 8 1
-
-After
-
-1 3 5 8
+Before: 5 3 8 1
+After:  1 3 5 8
 ```
 
 ### Complexity
 
-| Case | Time |
-|------|------|
-| Best | O(n) |
+| Case    | Time  |
+|---------|-------|
+| Best    | O(n)  |
 | Average | O(n²) |
-| Worst | O(n²) |
+| Worst   | O(n²) |
 
 Space Complexity: **O(1)**
 
 ---
 
-# 🎯 Selection Sort
+## 🎯 Selection Sort
 
 Selection Sort repeatedly selects the smallest element from the unsorted portion and places it in its correct position.
 
 ### Complexity
 
-| Case | Time |
-|------|------|
-| Best | O(n²) |
+| Case    | Time  |
+|---------|-------|
+| Best    | O(n²) |
 | Average | O(n²) |
-| Worst | O(n²) |
+| Worst   | O(n²) |
 
 Space Complexity: **O(1)**
 
 ---
 
-# 📥 Insertion Sort
+## 📥 Insertion Sort
 
 Insertion Sort builds the sorted array one element at a time by inserting each element into its proper position.
 
 ### Complexity
 
-| Case | Time |
-|------|------|
-| Best | O(n) |
+| Case    | Time  |
+|---------|-------|
+| Best    | O(n)  |
 | Average | O(n²) |
-| Worst | O(n²) |
+| Worst   | O(n²) |
 
 Space Complexity: **O(1)**
 
 ---
 
-# 📊 Sorting Comparison
+## 📊 Sorting Comparison
 
-| Algorithm | Best | Average | Worst | Stable |
-|-----------|------|----------|--------|---------|
-| Bubble Sort | O(n) | O(n²) | O(n²) | ✅ |
-| Selection Sort | O(n²) | O(n²) | O(n²) | ❌ |
-| Insertion Sort | O(n) | O(n²) | O(n²) | ✅ |
+| Algorithm       | Best  | Average | Worst | Space | Stable |
+|-----------------|-------|---------|-------|-------|--------|
+| Bubble Sort     | O(n)  | O(n²)   | O(n²) | O(1)  | ✅     |
+| Selection Sort  | O(n²) | O(n²)   | O(n²) | O(1)  | ❌     |
+| Insertion Sort  | O(n)  | O(n²)   | O(n²) | O(1)  | ✅     |
 
 ---
 
-# 💡 Key Takeaways
+## 💡 Key Takeaways
 
 - Arrays provide constant-time random access using indexes.
 - Insertion and deletion are expensive because elements need to be shifted.
@@ -242,7 +227,7 @@ Space Complexity: **O(1)**
 
 ---
 
-# 📂 Files in this Folder
+## 📂 Files in this Folder
 
 ```
 Notes.md
@@ -250,6 +235,7 @@ Traversal.py
 Insertion.py
 Deletion.py
 Linear_Search.py
+Merging.py
 Bubble_Sort.py
 Selection_Sort.py
 Insertion_Sort.py
@@ -258,7 +244,7 @@ README.md
 
 ---
 
-# 🚀 Learning Progress
+## 🚀 Learning Progress
 
 - ✅ Array Basics
 - ✅ Memory Representation
