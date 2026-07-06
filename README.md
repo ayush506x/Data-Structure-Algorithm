@@ -20,10 +20,9 @@ The repository is organized by topic to make it easy to navigate:
 ```text
 📦 DSA-Journey
  ┣ 📂 01-Arrays
- ┣ 📂 02-Strings
- ┣ 📂 03-Linked-Lists
- ┣ 📂 04-Stacks-and-Queues
- ┣ 📂 05-Trees
- ┣ 📂 06-Graphs
- ┣ 📂 07-Dynamic-Programming
+ ┣ 📂 02-Linked-Lists
+ ┣ 📂 03-Stacks-and-Queues
+ ┣ 📂 04-Trees
+ ┣ 📂 05-Graphs
+ ┣ 📂 06-Dynamic-Programming
  ┗ 📜 README.md
