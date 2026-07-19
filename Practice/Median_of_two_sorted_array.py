@@ -27,10 +27,3 @@ class Solution:
                 # If odd, median is the max of left partition
                 else:
                     return max(max_left1, max_left2)
-
-            # If nums1's left part is too big, move partition left
-            elif max_left1 > min_right2:
-                right = i - 1
-            # Otherwise, move partition right
-            else:
-                left = i + 1
