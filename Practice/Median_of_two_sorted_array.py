@@ -21,21 +21,4 @@ class Solution:
 
             # Check if we found the correct partition
             if max_left1 <= min_right2 and max_left2 <= min_right1:
-                # If total length is even, median is average of two middle values
-                if (m + n) % 2 == 0:
-                    return (max(max_left1, max_left2) + min(min_right1, min_right2)) / 2
-                # If odd, median is the max of left partition
-                else:
-                    return max(max_left1, max_left2)
-class Solution:
-    def findMedianSortedArrays(self, nums1, nums2):
-        # Always binary search on the smaller array to minimize complexity
-        if len(nums1) > len(nums2):
-            nums1, nums2 = nums2, nums1
-
-        m, n = len(nums1), len(nums2)
-        left, right = 0, m  # search boundaries for nums1
-
-        while left <= right:
-            # Partition nums1 at i, nums2 at j
-            i = (left + right) // 2
+    
