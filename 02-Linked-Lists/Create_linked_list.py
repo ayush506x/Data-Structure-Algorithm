@@ -18,3 +18,23 @@ current = head
 while current:
     print(current.data)
     current = current.next
+new_node = Node(5)
+
+new_node.next = head
+head = new_node
+
+current = head
+
+while current:
+    print(current.data)
+    current = current.next
+new_node = Node(5)
+
+new_node.next = head
+head = new_node
+
+current = head
+
+while current:
+    print(current.data)
+    current = current.next
