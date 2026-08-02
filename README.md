@@ -1,6 +1,6 @@
-# 🚀 DSA Journey & Problem Solving
+# 🚀 DSA Journey & Problem Solving 
 
-Welcome to my Data Structures and Algorithms (DSA) tracker! This repository serves as a personal log of my daily coding progress. As an AI/ML aspirant, my goal here is to build a rock-solid algorithmic foundation to write highly optimized code, excel in hackathons, and tackle complex, real-world problems.
+Welcome to my Data Structures and Algorithms (DSA) tracker! This repository serves as a personal log of my daily coding progress. As an AI/ML aspirant, my goal here is to build a rock-solid algorithmic foundation to write highly optimized code, excel in hackathon, and tackle complex, real-world problems.
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -13,9 +13,9 @@ Welcome to my Data Structures and Algorithms (DSA) tracker! This repository serv
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repositorys Structure
 
-The repository is organized by topic to make it easy to navigate:
+The repository is organized by topic to make it easy to navigate: 
 
 ```text
 📦 DSA-Journey
