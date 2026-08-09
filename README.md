@@ -13,7 +13,7 @@ Welcome to my Data Structures and Algorithms (DSA) tracker! This repository serv
 
 ---
 
-## 📂 Repositorys Structure
+## 📂 Repositorys Structures
 
 The repository is organized by topic to make it easy to navigate: 
 
