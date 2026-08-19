@@ -7,7 +7,7 @@ Welcome to my Data Structures and Algorithms (DSA) tracker! This repository serv
 
 ## 🎯 My Objectives
 - [ ] Consistently solve problems daily.
-- [ ] Master core algorithmic paradigms (Dynamic Programming, Graph Theory, Greedy).
+- [ ] Master core algorithmic paradigm (Dynamic Programming, Graph Theory, Greedy).
 - [ ] Optimize solutions for time and space complexity.
 - [ ] Apply efficient algorithms to machine learning pipelines and hackathon projects.
 
