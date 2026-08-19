@@ -1,36 +1,9 @@
-#learning the types of sorting how sorting works 
-# BUBBLE SORT first type of sort 
-arr = [5,3,8,1]
-n=len(arr)
-for i in range(n):
-    for j in range(0,n-i-1):
-        if arr[j] > arr[j+1]:
-            arr[j],arr[j+1] = arr[j+1],arr[j]
-print(arr)
-
-#learning the types of sorting how sorting works 
-# BUBBLE SORT first type of sort 
-arr = [5,3,8,1]
-n=len(arr)
-for i in range(n):
-    for j in range(0,n-i-1):
-        if arr[j] > arr[j+1]:
-            arr[j],arr[j+1] = arr[j+1],arr[j]
-print(arr)
-
-sfiodkls;o#learning the types of sorting how sorting works 
-# BUBBLE SORT first type of sort 
-arr = [5,3,8,1]
-n=len(arr)
-for i in range(n):
-    for j in range(0,n-i-1):
-        if arr[j] > arr[j+1]:
-            arr[j],arr[j+1] = arr[j+1],arr[j
-#learning the types of sorting how sorting works 
-# BUBBLE SORT first type of sort 
-arr = [5,3,8,1]
-n=len(arr)
-for i in range(n):
-print(arr)
-
-sfiodkls;o
+import turtel
+import math
+import random 
+screen = turtel.Screen()
+screen.bgcolor("Black")
+t = turtel.Turtel()
+t.speed(0)
+t.hideturtel()
+t.pensize(1)
