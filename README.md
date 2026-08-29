@@ -1,4 +1,4 @@
-# 🚀 DSA Journey & Problem Solving 
+# 🚀 DSA Journey & Problems Solving 
 
 Welcome to my Data Structures and Algorithms (DSA) tracker! This repository serves as a personal log of my daily coding progress. As an AI/ML aspirant, my goal here is to build a rock-solid algorithmic foundation to write highly optimized code, excel in hackathon, and tackle complex, real-world problems.
 
