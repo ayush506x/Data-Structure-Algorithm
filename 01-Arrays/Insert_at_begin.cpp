@@ -5,7 +5,6 @@
 int main() {
     int arr[MAX_SIZE]; 
     int n, i, newElement;
-
     printf("Enter number of elements (max %d): ", MAX_SIZE);
     scanf("%d", &n);
 
