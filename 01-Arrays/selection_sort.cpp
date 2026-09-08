@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-    // Inserting the Array:
     int n;
     cout << "Enter number of elements: ";
     cin >> n;
@@ -11,7 +10,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    // Loop is Started to check weather it is smaller than or greater:
     for (int i = 0; i < n - 1; i++) {
         int a = i;
         for (int j = i + 1; j < n; j++) {
