@@ -11,7 +11,7 @@ int main() {
 
         while ((j >= 0) && a[j] > key) {
             a[j + 1] = a[j];
-            j--;   // ✅ semicolon added
+            j--;  
         }
         a[j + 1] = key;
     }
