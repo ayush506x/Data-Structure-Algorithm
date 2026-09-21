@@ -15,8 +15,7 @@ int main() {
         printf("Enter %d elements:\n", n);
         for (int i = 0; i < n; i++) {
             scanf("%d", &arr[i]);
-        }
-
+        }.
         if (n == MAX_SIZE) {
             printf("Array is full! Cannot insert new element.\n");
         } else {
